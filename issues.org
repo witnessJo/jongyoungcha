@@ -1,0 +1,17 @@
+
+* BlockChain Study
+-
+-
+-
+  
+* Emacs Configuration
+- Make cursor moving easier
+- Lisp development environments
+- Make RedoUndoTree history file not generate
+- Go debug environments
+  # - Dap mode helm or ivy
+- Go development environments
+- Write Blockchain blog
+- Emacs File Diff
+# - helm-ag setting
+

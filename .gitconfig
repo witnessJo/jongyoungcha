@@ -1,0 +1,21 @@
+[user]
+name = Richard Jo
+email = richard@sentbe.com
+[url "git@bitbucket.org:sentbe"]
+insteadOf = https://bitbucket.org/sentbe
+[url "git@bitbucket.org:"]
+insteadOf = https://bitbucket.org/
+[url "git@github.sentbe.net:SENTBIZ"]
+insteadOf = https://github.sentbe.net/SENTBIZ
+[url "git@github.sentbe.net:"]
+insteadOf = https://github.sentbe.net/
+
+[core]
+excludesfile = /Users/richard/.gitignore_global
+autocrlf = input
+[difftool "sourcetree"]
+cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+path = 
+[mergetool "sourcetree"]
+cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+trustExitCode = true

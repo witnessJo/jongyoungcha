@@ -52,6 +52,10 @@ find_file() {
     vterm_cmd find-file "$(realpath "${@:-.}")"
 }
 
+open_file_below() {
+    vterm_cmd find-file-below "$(realpath "${@:-.}")"
+}
+
 say() {
     vterm_cmd message "%s" "$*"
 }

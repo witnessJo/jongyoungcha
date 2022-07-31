@@ -1,0 +1,27 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: minikube-mount
+spec:
+  volumes:
+  - name: volumes-share
+    hostPath:
+      path: /Users/jongyoungcha/volumes/share
+      type: DirectoryOrCreate
+  - name: volumes-block
+    hostPath:
+      path: /Users/jongyoungcha/volumes/block
+      type: DirectoryOrCreate
+
+  containers:
+  - image: alpine:latest
+    name: one
+    command:
+    - sleep
+    - 24h
+    volumeMounts:
+      - name: volumes-share
+        mountPath: /Users/jongyoungcha/volumes/share
+      - name: volumes-block
+        mountPath: /Users/jongyoungcha/volumes/block
+

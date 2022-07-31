@@ -1,9 +1,3 @@
-
-* BlockChain Study
--
--
--
-  
 * Emacs Configuration
 - Make cursor moving easier
 - Lisp development environments
@@ -13,5 +7,22 @@
 - Go development environments
 - Write Blockchain blog
 - Emacs File Diff
+- Learn Tramp
+- Learn Ivy and Swiper
+- Think About Openning Vterm Method
 # - helm-ag setting
+# - Bookmark setting
+# - Make enlarge of vterm buffer lines
+- Add a fontlock for highlighting errors (terminal mode)
+  - keywords white: create.. , success.., select, update, from, values
+  - keywords black: error, fail.. , delete.., drop..
 
+* Kubernetes
+- How to know all process list
+- How to exec netstat-listen from kubernetes
+# - How to know port-forwarding policies
+
+* MDL
+- TODO
+  - Add log library
+  - 

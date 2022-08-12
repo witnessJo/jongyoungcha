@@ -7,7 +7,7 @@
 - Go development environments
 - Write Blockchain blog
 - Emacs File Diff
-- Learn Tramp
+# - Learn Tramp
 - Learn Ivy and Swiper
 - Think About Openning Vterm Method
 # - helm-ag setting
@@ -25,4 +25,11 @@
 * MDL
 - TODO
   - Add log library
-  - 
+
+* Hyper Ledger
+- Create MSP with "cryptogen"
+  - One organization employing various MSPs
+  - Multiple organizations using a single MSP
+- Make HL Network running on kubernetes
+- Update channel policy
+    

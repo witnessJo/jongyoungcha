@@ -39,8 +39,7 @@ minikube-start() {
   minikube start \
            --driver docker \
            --container-runtime=containerd \
-           --mount --mount-string="/Users/jongyoungcha/volumes/share:/Users/jongyoungcha/volumes/share" \
-           --mount --mount-string="/Users/jongyoungcha/volumes/block:/Users/jongyoungcha/volumes/block" 
+           --mount --mount-string="/Users/jongyoungcha/volumes/share:/Users/jongyoungcha/volumes/share"
   # minikube ssh sudo mkdir -p /Users/jongyoungcha/volumes/share
   # minikube ssh sudo mkdir -p /Users/jongyoungcha/volumes/block
   # kubectl apply -f $HOME/jongyoungcha/minikube-mount.yaml

@@ -9,17 +9,23 @@
 - Emacs File Diff
 # - Learn Tramp
 - Learn Ivy and Swiper
-- Think About Openning Vterm Method
 # - helm-ag setting
 # - Bookmark setting
 # - Make enlarge of vterm buffer lines
-- Add a fontlock for highlighting errors (terminal mode)
-  - keywords white: create.. , success.., select, update, from, values
-  - keywords black: error, fail.. , delete.., drop..
+# - Add a fontlock for highlighting errors (terminal mode)
+  # - keywords white: create.. , success.., select, update, from, values
+  # - keywords black: error, fail.., delete.., drop..
+- Show default-directory of vterm on the buffer title
+# - Multi-vterm open vterm window with rotaing default-directory
+- When go to definition through go-lsp, Module directory added projectile project list
+- Make local variable helm box show right tree view 
+- kbd 'C' is not pressed on yaml-mode
+- Make show DAP message box
 
 * Kubernetes
 - How to know all process list
 - How to exec netstat-listen from kubernetes
+- Make mounting block to use pvc and pv
 # - How to know port-forwarding policies
 
 * MDL

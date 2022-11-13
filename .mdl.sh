@@ -1,6 +1,7 @@
 # export KIND_EXPERIMENTAL_PROVIDER=podman
 
 export PV_PATH=$HOME/volumes
+export GOPRIVATE=github.com/the-medium-tech/*
 
 alias emvm='ssh mdl-local emacs'
 

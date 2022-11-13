@@ -1,3 +1,4 @@
+
 * Emacs Configuration
 - Make cursor moving easier
 - Lisp development environments
@@ -6,7 +7,7 @@
   # - Dap mode helm or ivy
 - Go development environments
 - Write Blockchain blog
-- Emacs File Diff
+# - Emacs File Diff
 # - Learn Tramp
 - Learn Ivy and Swiper
 # - helm-ag setting
@@ -15,12 +16,16 @@
 # - Add a fontlock for highlighting errors (terminal mode)
   # - keywords white: create.. , success.., select, update, from, values
   # - keywords black: error, fail.., delete.., drop..
-- Show default-directory of vterm on the buffer title
+# - Show default-directory of vterm on the buffer title
 # - Multi-vterm open vterm window with rotaing default-directory
 - When go to definition through go-lsp, Module directory added projectile project list
 - Make local variable helm box show right tree view 
-- kbd 'C' is not pressed on yaml-mode
-- Make show DAP message box
+# - kbd 'C' is not pressed on yaml-mode
+# - Apply compilation-mode to go-test output buffer
+# - Make show DAP message box
+- Find non scroll up mode for building docker
+- Add features handling balanced parenthsis and double quotes
+- Debug Easier from golang
 
 * Kubernetes
 - How to know all process list
@@ -30,12 +35,16 @@
 
 * MDL
 - TODO
-  - Add log library
+  # - Add log library
+  # - Add log level configuration of package
+  # - Invoke Error occured after "2a86f7b" commit
+  # - Instantiate fabric network not using oneclick feature from 2a86f7b branch (check
+  # docker connection failed)
+  - Find a way of running chaincode not as a container process
+  - Make not showing logs of docker controller from failed peer environment
 
 * Hyper Ledger
 - Create MSP with "cryptogen"
   - One organization employing various MSPs
   - Multiple organizations using a single MSP
 - Make HL Network running on kubernetes
-- Update channel policy
-    

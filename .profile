@@ -3,8 +3,9 @@ export GOPATH=$HOME/gopath
 export PATH=$PATH:/opt/homebrew/bin
 export PATH=$PATH:$GOROOT/bin
 export PATH=$PATH:$GOPATH/bin
-export PATH=$PATH:$GOPATH/src/github.com/richard-themediumio/fabric-samples/bin
-export PATH=$PATH:$HOME/gowork/fabric-kubernetes-tutorial/fabric-samples/bin
+# export PATH=$PATH:$GOPATH/src/github.com/richard-themediumio/fabric-samples/bin
+# export PATH=$PATH:$HOME/gowork/fabric-kubernetes-tutorial/fabric-samples/bin
+export PATH=$PATH:$HOME/gowork/fabric-samples/bin
 export GO111MODULE=on
 
 alias k='kubectl'

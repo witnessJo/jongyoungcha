@@ -42,9 +42,24 @@
   # docker connection failed)
   - Find a way of running chaincode not as a container process
   - Make not showing logs of docker controller from failed peer environment
+  - Synchronous postman collection
+  - Modify MSP table
 
 * Hyper Ledger
 - Create MSP with "cryptogen"
   - One organization employing various MSPs
   - Multiple organizations using a single MSP
 - Make HL Network running on kubernetes
+
+
+* TDD
+# - Lesson1 Fix contents to original thing
+# - Read Lesson7
+# - Read Lesson4
+# - Add Summary
+# - Mock Sample
+- Test scenario of MDL manager
+  
+
+
+  

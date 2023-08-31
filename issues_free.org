@@ -4,11 +4,8 @@
 - Lisp development environments
 - Make RedoUndoTree history file not generate
 - Go debug environments
-  # - Dap mode helm or ivy
 - Go development environments
 - Write Blockchain blog
-# - Emacs File Diff
-# - Learn Tramp
 - Learn Ivy and Swiper
 # - helm-ag setting
 # - Bookmark setting
@@ -20,12 +17,18 @@
 # - Multi-vterm open vterm window with rotaing default-directory
 - When go to definition through go-lsp, Module directory added projectile project list
 - Make local variable helm box show right tree view 
-# - kbd 'C' is not pressed on yaml-mode
-# - Apply compilation-mode to go-test output buffer
-# - Make show DAP message box
 - Find non scroll up mode for building docker
 - Add features handling balanced parenthsis and double quotes
 - Debug Easier from golang
+- Can't not run vterm from tramp mode
+- Speed up company mode when I use eglot mode of nodejs
+- When execute vterm from tramp not working with current working directory
+- When execute vterm from tramp mode default-directory was not synchronized
+- Add a concurrency executions feature of multiple sessions from emacs
+- Read the guides for emacs lisp programming
+  - https://github.com/caiorss/Emacs-Elisp-Programming
+  - https://www.gnu.org/software/emacs/manual/html_node/elisp/index.html
+  
 
 * Kubernetes
 - How to know all process list

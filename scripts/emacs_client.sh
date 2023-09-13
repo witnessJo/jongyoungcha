@@ -1,2 +1,2 @@
 #!/bin/zsh
-emacsclient --create-frame --alternate-editor=""
+emacsclient -nc --alternate-editor=""
